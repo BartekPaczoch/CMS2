@@ -1,0 +1,1 @@
+ widgets.sliderNivo.smallhelp = 滑块NIVO图片

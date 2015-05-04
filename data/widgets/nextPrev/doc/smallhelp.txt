@@ -1,0 +1,1 @@
+Pokazuje przyciski "następny" i "poprzedni" w grupie elementów.

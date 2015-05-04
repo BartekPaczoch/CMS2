@@ -1,0 +1,1 @@
+{$licznik = $data.pagesDB->addView($data.pageid)}

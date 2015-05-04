@@ -1,0 +1,386 @@
+@e-color-basic:#eee;
+@e-color-bg: #252525;
+@e-fontsize-basic-font:12px;
+@e-color-topbar:#181818;
+@e-color-box:#111;
+body{
+	color:@e-color-basic;
+	font-size: @e-fontsize-basic-font;
+	background-color:@e-color-bg;
+	
+}
+h3{
+	font-weight:normal;
+}
+li {
+	list-style: none;
+}
+.box{
+	background-color: #111;
+	-webkit-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+
+}
+.btn {
+	background-image:none;
+	background-color: transparent;
+	border-color: rgba(0,0,0,0.1);
+}
+.btn-group {
+	float: right;
+	top:-35px;	
+}
+ul.languagedropdown {
+	text-align: left;
+	min-width: 52px;
+	max-width: 52px;
+}
+ul.languagedropdown li a {
+	padding-left: 5px;
+	padding-right: 0px;
+	text-align: left;
+}
+.box h4{
+
+	padding: 22px;
+	padding-top: 24px;
+	padding-left: 40px;
+	
+}
+.pad h4{
+	margin:-20px;
+	margin-bottom: 5px;
+}
+.pad{
+	padding:20px;
+}
+.logo{
+	margin: 20px;
+	margin-left: 10px;
+	display: inline-block;
+}
+footer{
+	text-align:center;
+	color:#aaa;
+	padding-bottom: 120px;
+
+	margin-top:30px;
+}
+.carousel-control {
+	display:none;
+}
+.white-box{
+	background-color: white;
+}
+.userlogin-box .control-group {
+	margin-left: 20px;
+}
+.userlogin-box .input-medium{
+	width: 88%;
+}
+.userlogin-box form{
+	margin:0px;
+}
+.userlogin-box .form-actions{
+	margin-bottom: 0px;
+}
+.box-footer {
+	margin-left: -20px;
+	margin-right: -20px;
+	margin-bottom: -20px;
+	margin-top: 20px;
+	padding: 20px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	background-color: #000;
+	border-top: 1px solid #222;
+}
+.newsNormal,.searchList,.tagsShowList{
+	margin: -20px;
+	
+}
+.margin-top{
+	margin-top: 20px;
+}
+.margin-top-big{
+  margin-top: 40px;
+}
+.margin-bottom{
+	margin-bottom: 20px;
+}
+.carousel {
+	margin-bottom:0px;
+}
+.pad .navigation {
+	margin: -20px;
+	margin-bottom: 20px;
+}
+.navigation .breadcrumb{
+	background-color: #333;
+	border-bottom:1px solid #222;
+	padding-left: 20px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	margin-bottom:0px;	
+	
+}
+.navigation .breadcrumb a, .navigation .breadcrumb li{
+	color: #999;
+	text-shadow: 0 1px 0 #000;
+}
+.dropdown-menu {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.pad .form-actions{
+  margin-left:-40px;
+  margin-right:-40px;
+  margin-bottom:-60px;
+}
+
+body {
+  padding-right: 0px;	
+  padding-bottom: 0px;
+}
+.subslide .carousel-indicators {
+  width: 150px;
+  height: 50px;
+  right: 38%;
+}
+
+/* Custom container */
+.container-narrow {
+  margin: 0 auto;
+  max-width: 802px;
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+.shadow{
+	-webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    0px 0px 6px rgba(0, 0, 0, 1);
+	box-shadow:         0px 0px 6px rgba(0, 0, 0, 1);  	
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  margin: 30px 0;
+  text-align: center;
+}
+.jumbotron h1 {
+  font-size: 72px;
+  line-height: 1;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 60px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+.navbar-wrapper{
+  margin:-20px;
+}
+.navbar-inverse .navbar-inner {
+	background-color: @e-color-topbar;
+	background-image: none;
+}
+.navbar-inner{
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px; 
+  border:0px;
+  padding-right: 0px;
+ }
+
+.navbar-inverse .brand, .navbar-inverse .nav > li > a {
+  color: #bbb;
+}
+.brand{
+	padding-top: 12px!important;
+	padding-left:16px!important;
+}
+.navbar .nav li > a {
+  padding:6px;
+  padding-left:20px;
+}
+.navbar .nav > li > a {
+  padding:20px;
+}
+.navbar .nav  ul .active {
+  background-color: white;
+}
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle, .navbar-inverse .nav li.dropdown.active > .dropdown-toggle, .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle, .navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus {
+  background-color: #000;
+}
+
+#droppy {float:right;}
+#droppy ul { width: auto; }
+#droppy ul ul { left: 220px;}  
+
+#droppy a {color: #fff; font-size: 13px; line-height: 1; text-decoration:none; 	-webkit-transition: all .06s ease-in-out;
+	-moz-transition: all .06s ease-in-out;
+	transition: all .06s ease-in-out;}
+  #droppy li > a {padding:20px; padding-bottom:22px; padding-top:22px;}
+  #droppy li.hover > a { background-color:#fff;  color:#000;}
+  #droppy ul {top:57px;}
+    #droppy ul li a {  padding-bottom:17px; padding-top:18px;padding-left:20px; padding-right:20px; color: #333; border-top:1px #eee solid;}
+      #droppy ul a.hover { background-color:#fafafa; color: #000;}
+   #droppy ul a { }
+
+ #droppy li ul {background-color:#fff;}
+
+#droppy .menuOpen{
+	background-color:#fff!important;
+	color:black;
+}
+#droppy ul li .menuOpen{
+	background-color:#f1f1f1!important;
+	color:black;
+}
+
+
+.navbar {
+	margin-bottom: 0px;
+}
+.alert{
+	text-align:center;
+	font-weight:bold;
+	background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+	background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+	background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+	background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+	background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+	-webkit-background-size: 40px 40px;
+	-moz-background-size: 40px 40px;
+	-o-background-size: 40px 40px;
+	background-size: 40px 40px;	
+	margin-top:0px;
+	margin-bottom:0px;
+
+	
+	-webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.09);
+	-moz-box-shadow:    0px 1px 4px rgba(0, 0, 0, 0.09);
+	box-shadow:         0px 1px 4px rgba(0, 0, 0, 0.09);
+	
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;	
+}
+.alert-success{
+	background-color: #55912a;
+	border-color: #D6E9C6;
+	color: #fff;
+	border-top:0px;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+.alert-error{
+	background-color: #BA1D1A!important;
+	color:white;
+	border-color:#BA1D1A;
+	border-top:0px;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+.alert .close{
+	top:2px;
+}
+.carousel-caption {
+	opacity: 0;
+ 	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;	
+}
+.carousel-caption:hover {
+	opacity: 1;
+}
+.carousel-caption h4{
+	font-size: 30px;
+	margin:0px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	text-align: center;
+}
+.carousel-caption p{
+	text-align: center;
+	padding: 20px;
+	padding-top: 0px;
+	padding-bottom: 5px;
+}
+hr{
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #111;	
+}
+.logos{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #eee;
+}
+.newsNormal li a img {	
+	margin-top: 8px;
+	margin-right: 10px;
+}
+.newsNormal li a {
+	text-decoration: none;
+}
+.tagsShowList li {
+	margin-bottom: 20px;
+}
+.newsNormal li:nth-child(odd),.tagsShowList li:nth-child(odd) {
+	background-color: @e-color-box;
+	border:none;	
+}
+.form-actions {
+	background-color: #000;
+	border-top: 1px solid #222;
+}
+.tagsShowList li a {
+	text-decoration: none;
+	
+}
+@media (max-width: 991px) {
+
+	#droppy{
+    width: 100%;
+    float:none; 
+    display:block;
+    text-align:center!important;
+    position: relative;
+    bottom:20px;
+    top: 0px;
+    
+  }
+  #droppy>li{
+    float:none;
+    display:inline-block;
+    text-align:left;
+  }
+}
+@media (max-width: 789px){
+	.navbar .brand {
+		float: none;
+		text-align: center;
+	}
+	footer {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+}
+
+@media (max-width: 320px) {
+	.newsNormal li a img {
+		padding-left:35px;
+	}
+
+}
